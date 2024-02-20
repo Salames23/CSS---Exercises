@@ -1,0 +1,55 @@
+/* universal selector */
+* {
+
+box-sizing: border-box;
+}
+/*reset the body's margins*/
+html {
+  scroll-behavior:smooth;
+}
+
+body {
+  margin:0;
+
+ 
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <300>;
+    font-style: normal;
+
+  }
+
+
+h1 {
+  margin:0;
+  padding:1em;
+
+  font-size: 8em;
+  letter-spacing: -3px;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  
+}
+h2{
+  margin:0;
+
+  font-size: 5em;
+  letter-spacing: -3px;
+  font-weight: 700;
+}
+article {
+  padding: 3em; 
+  min-height: 50vh;
+  /* viewport units */
+  /* 100vw = viewport width */
+  /* 100vh = viewport width */
+  background-color: rgba(236, 169, 255, 0.297);
+}
+
+article:nth-child(odd){
+  background-color: rgba(164, 225, 255, 0.233);
+}
+footer{
+  padding: 1em;
+}
