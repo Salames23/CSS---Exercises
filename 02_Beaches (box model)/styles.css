@@ -14,7 +14,7 @@ body {
  
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
-    font-weight: <300>;
+    font-weight: 300;
     font-style: normal;
 
   }
@@ -52,4 +52,13 @@ article:nth-child(odd){
 }
 footer{
   padding: 1em;
+}
+.top-bar{
+  /* overwtite the default user agent stylesheet margin*/
+
+  margin: 0;
+  padding: 1em 0;
+
+  text-align: center;
+
 }
